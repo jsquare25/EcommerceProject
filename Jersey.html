@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+  <html xmlns:th="http://www.thymeleaf.org" lang="en">
+  <head>
+	  <title>Soccer Jerseys</title>
+	  <link rel="stylesheet" href="Jersey.css">
+  </head>
+  <body>
+		<div class="topnav">
+				<a class="active" href="index.html">Home</a>
+				<a href="Jersey.html">Soccer Jerseys</a>
+				<a href="NFL.html">NFL Jerseys</a>
+				<a href="Cart.html">Cart</a>
+			  </div>
+ 
+  <main role="main">
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+          <div class="container">
+              <h1 class="display-3">European Soccer Jerseys ⚽</h1>
+              <p>Get the latest Soccer Kits from your Favorite Top Stars </p>
+          </div>
+      </div>
+ 
+      <div class="container">
+          <div class="row">
+				<div class="card" style="width: 22rem;">
+						<img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productimages/_3641000/ff_3641875-586b558fc3ecb52cff45_full.jpg&w=340" class="card-img-top" alt="ED7"style="width: 18rem;" class="card-img-top" alt="ED7">
+						<div class="card-body">
+						  <h3 class="card-title">Eden Hazard - Real Madrid</h3>
+						  <p class="text">The third best player in the world for the best club in the world</p>
+							<h5>$129.99</h5>
+						  <a href="#" class="myButton">Add to Cart</a>
+						</div>
+					  </div>
+					  <br>
+
+				 <div class="card" style="width: 22rem;">
+						<img src="https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_3566000/altimages/ff_3566778-dda11a4d15ee838b8b74alt1_full.jpg&w=325" class="card-img-top" alt="CR7">
+						<div class="card-body">
+							<h3 class="card-title">Cristiano Ronaldo - Juventus</h3>
+							<p class="text">The (GOAT) Greatest Of All Time in Juve gear</p>
+								<h5>$129.99</h5>
+						<a href="#" class="myButton">Add to Cart</a>
+						</div>
+				</div>	
+				<br>  
+				
+				<div class="card" style="width: 22rem;">
+						<img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productimages/_3538000/ff_3538802-1bc513521fb694401eee_full.jpg&w=340" class="card-img-top" alt="LM10">
+						<div class="card-body">
+							<h3 class="card-title">Lionel Messi - Barcelona</h3>
+							<p class="text">The baby (GOAT) Greatest Of All Time in Barca gear</p>
+								<h5>$129.99</h5>
+							<a href="#" class="myButton">Add to Cart</a>
+						</div>
+				</div>		  
+		</div>
+	</div>
+  </main>
+ 
+  <footer th:replace="fragments :: footer"></footer>
+  </body>
+  </html>
